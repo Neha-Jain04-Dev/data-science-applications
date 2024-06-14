@@ -1,0 +1,15 @@
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+scikit-learn
+joblib
+cloudpickle
+Flask
+tpot
+
+
+
+
+
