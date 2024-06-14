@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "383d32ba-ad03-4a92-87cc-d6188b964435",
+		"name": "Glass-Classification-Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35576688"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"features\": [\n        [\n            -0.147226,\n            -0.296553,\n            -0.184103,\n            0.121692,\n            -0.219303\n        ]\n    ]\n}\n\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/classify-glass",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"classify-glass"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
